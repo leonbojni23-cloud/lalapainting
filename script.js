@@ -50,13 +50,14 @@
       if (entry.isIntersecting) {
         const el = entry.target;
         const target = parseInt(el.getAttribute('data-target'));
+        const suffix = el.getAttribute('data-suffix') || '';
         let count = 0;
         const duration = 2000;
         const step = Math.ceil(target / (duration / 16));
         const timer = setInterval(() => {
           count += step;
           if (count >= target) {
-            el.textContent = target;
+            el.textContent = target + suffix;
             clearInterval(timer);
           } else {
             el.textContent = count;

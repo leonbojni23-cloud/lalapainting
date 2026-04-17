@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lala Painting — Art & Cilësi Premium</title>
+  
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+  <!-- AOS Library (lightweight scroll animations) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== STICKY NAVIGATION ===== -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon"><i class="fas fa-paint-brush"></i></span>
+        <span class="logo-text">Lala<span class="text-gold">Painting</span></span>
+      </a>
+      
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#services" class="nav-link">Shërbime</a></li>
+          <li><a href="#stats" class="nav-link">Statistika</a></li>
+          <li><a href="#testimonials" class="nav-link">Dëshmi</a></li>
+          <li><a href="#about" class="nav-link">Rreth Nesh</a></li>
+          <li><a href="#gallery" class="nav-link">Galeria</a></li>
+          <li><a href="#contact" class="nav-link">Kontakt</a></li>
+        </ul>
+      </nav>
+      
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-outline-light btn-sm">
+          <span>Na kontakto</span> <i class="fas fa-arrow-right"></i>
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO SECTION (Clean & Premium) ===== -->
+    <section id="home" class="hero">
+      <div class="hero-background">
+        <div class="gradient-sphere sphere-1"></div>
+        <div class="gradient-sphere sphere-2"></div>
+      </div>
+      
+      <div class="container hero-content">
+        <div class="hero-badge-wrapper" data-aos="fade-up">
+          <span class="hero-badge">
+            <i class="fas fa-crown"></i> Mjeshtëri që nga 2016
+          </span>
+        </div>
+        <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+          Cilësi që <span class="text-gradient">shihet</span>.<br>
+          Detaje që <span class="text-gradient">ndihen</span>.
+        </h1>
+        <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+          Lyerje profesionale dhe punime dekorative
+        </p>
+        <div class="hero-cta" data-aos="fade-up" data-aos-delay="300">
+          <a href="#contact" class="btn btn-primary btn-lg btn-glow">
+            Na kontakto <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="scroll-indicator">
+        <span class="mouse-line"></span>
+        <span class="scroll-text">Scroll</span>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES SECTION ===== -->
+    <section id="services" class="section services">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag"><i class="fas fa-paint-roller"></i> — Çfarë ofrojmë</span>
+          <h2 class="section-title">Shërbime <span class="text-gradient">Premium</span></h2>
+          <p class="section-desc">Ekspertiza jonë e ndarë në tre shtylla kryesore, e realizuar me pasion dhe materiale të cilësisë së lartë.</p>
+        </div>
+        
+        <div class="services-grid">
+          <!-- Card 1 -->
+          <div class="service-card" data-aos="fade-up" data-aos-delay="50">
+            <div class="card-icon">
+              <i class="fas fa-paint-roller"></i>
+            </div>
+            <h3>Lyerje Profesionale</h3>
+            <p>Lyerje e brendshme dhe e jashtme me bojëra ekologjike. Përgatitje perfekte e sipërfaqeve, stuko dhe nivelim.</p>
+            <ul class="card-features">
+              <li><i class="fas fa-check-circle"></i> Bojëra Antibakteriale</li>
+              <li><i class="fas fa-check-circle"></i> Garancia 5 Vjet</li>
+              <li><i class="fas fa-check-circle"></i> Ekip i Siguruar</li>
+            </ul>
+            <a href="#contact" class="card-link">
+              Kërko ofertë <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+          <!-- Card 2 -->
+          <div class="service-card" data-aos="fade-up" data-aos-delay="150">
+            <div class="card-icon">
+              <i class="fas fa-cubes"></i>
+            </div>
+            <h3>Gips & Dekorime</h3>
+            <p>Stukim profesional, tavane të varura, ndarje me gips dhe elemente dekorative moderne për çdo ambient.</p>
+            <ul class="card-features">
+              <li><i class="fas fa-check-circle"></i> Dizajn Personalizuar</li>
+              <li><i class="fas fa-check-circle"></i> Materiale Rezistente</li>
+              <li><i class="fas fa-check-circle"></i> Mbrojtje nga Lagështira</li>
+            </ul>
+            <a href="#contact" class="card-link">
+              Kërko ofertë <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+          <!-- Card 3 -->
+          <div class="service-card" data-aos="fade-up" data-aos-delay="250">
+            <div class="card-icon">
+              <i class="fas fa-fill-drip"></i>
+            </div>
+            <h3>Patinime Artistike</h3>
+            <p>Efekte dekorative, patinime antike, faux finish dhe mbrojtje e mureve me dyllë natyralë dhe pigmente.</p>
+            <ul class="card-features">
+              <li><i class="fas fa-check-circle"></i> Teknika Ekskluzive</li>
+              <li><i class="fas fa-check-circle"></i> Pigmente Italiane</li>
+              <li><i class="fas fa-check-circle"></i> Rezistencë e Lartë</li>
+            </ul>
+            <a href="#contact" class="card-link">
+              Kërko ofertë <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STATS COUNTER ===== -->
+    <section id="stats" class="stats-section">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-icon"><i class="fas fa-briefcase"></i></div>
+            <div class="stat-number" data-target="540">0</div>
+            <div class="stat-label">Projekte të Përfunduara</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon"><i class="fas fa-users"></i></div>
+            <div class="stat-number" data-target="400">0</div>
+            <div class="stat-label">Klientë të Kënaqur</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon"><i class="fas fa-calendar"></i></div>
+            <div class="stat-number" data-target="10">0</div>
+            <div class="stat-label">Vite Eksperiencë</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon"><i class="fas fa-star"></i></div>
+            <div class="stat-number" data-target="300+">0</div>
+            <div class="stat-label">Punime Cilësore</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS SECTION ===== -->
+    <section id="testimonials" class="section testimonials bg-dark-light">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag"><i class="fas fa-star"></i> — Dëshmi</span>
+          <h2 class="section-title">Çfarë thonë <span class="text-gradient">Klientët</span></h2>
+          <p class="section-desc">Krenaria jonë më e madhe është kënaqësia e klientëve tanë.</p>
+        </div>
+        
+        <div class="testimonials-grid">
+          <div class="testimonial-card" data-aos="fade-up">
+            <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
+            <p class="testimonial-text">“Lala Painting transformoi shtëpinë time. Profesionistë, të përpiktë dhe shumë të pastër. Ngjyrat dolën tamam siç i kisha ëndërruar. Ia rekomandoj kujtdo!”</p>
+            <div class="client-info">
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Klient" class="client-avatar">
+              <div>
+                <h4>Arta Hoxha</h4>
+                <span>Tiranë</span>
+                <div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
+            <p class="testimonial-text">“Punuan fasadën e pallatit 10-katësh. Përdorën skela moderne dhe bojëra cilësore. Rezultati ishte spektakolar. Do të vazhdojmë bashkëpunimin për ambientet e brendshme.”</p>
+            <div class="client-info">
+              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Klient" class="client-avatar">
+              <div>
+                <h4>Besnik Gashi</h4>
+                <span>Administrator Pallati, Durrës</span>
+                <div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
+            <p class="testimonial-text">“Kisha nevojë për një patinim special në restorant. Skuadra e Lala Painting bëri një punë artistike. Muri duket si mermer i vërtetë. Klientët e mi e adhurojnë!”</p>
+            <div class="client-info">
+              <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Klient" class="client-avatar">
+              <div>
+                <h4>Elira Shehu</h4>
+                <span>Pronare Restoranti, Vlorë</span>
+                <div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="section about">
+      <div class="container about-container">
+        <div class="about-image" data-aos="fade-right">
+          <div class="image-wrapper">
+            <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg" alt="Ambient modern i lyer profesional">
+            <div class="image-border"></div>
+          </div>
+          <div class="experience-badge floating">
+            <span>10+</span> vite eksperiencë
+          </div>
+        </div>
+        <div class="about-content" data-aos="fade-left">
+          <span class="section-tag"><i class="fas fa-users"></i> — Rreth nesh</span>
+          <h2 class="section-title">Përkushtim ndaj <span class="text-gradient">Cilësisë</span></h2>
+          <div class="owner-name">
+            <i class="fas fa-user-tie"></i> Albert LALA – Sipërmarrës
+          </div>
+          <p class="about-text">
+            Lala Painting nuk është thjesht një shërbim lyerjeje — është një përkushtim ndaj cilësisë dhe detajit në çdo ambient që trajtojmë. Me mbi 10 vite eksperiencë në tregun shqiptar, kemi ndërtuar besim te klientët tanë përmes punës së pastër, korrektësisë dhe rezultateve që zgjasin në kohë.
+          </p>
+          <p class="about-text">
+            Punojmë me materiale premium të zgjedhura nga partnerë europianë dhe aplikojmë teknika moderne për të arritur përfundime të sakta dhe elegante. Çdo projekt trajtohet me seriozitet maksimal, nga përgatitja deri te detaji i fundit.
+          </p>
+          <div class="about-features">
+            <div><i class="fas fa-medal"></i> Punë e pastër dhe profesionale</div>
+            <div><i class="fas fa-leaf"></i> Materiale cilësore</div>
+            <div><i class="fas fa-shield-alt"></i> Përfundim me detaje perfekte</div>
+          </div>
+          <a href="#contact" class="btn btn-primary btn-glow">
+            Na kontakto <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALLERY ===== -->
+    <section id="gallery" class="section gallery bg-dark-light">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag"><i class="fas fa-camera-retro"></i> — Galeria e Punimeve</span>
+          <h2 class="section-title">Transformime <span class="text-gradient">Reale</span></h2>
+          <p class="section-desc">Shikoni disa nga projektet tona më të fundit. Cilësi premium në çdo detaj.</p>
+        </div>
+        
+        <div class="gallery-filter" data-aos="fade-up">
+          <button class="filter-btn active" data-filter="all">Të Gjitha</button>
+          <button class="filter-btn" data-filter="indoor">Lyerje Brendshme</button>
+          <button class="filter-btn" data-filter="outdoor">Fasada</button>
+          <button class="filter-btn" data-filter="decor">Dekorative</button>
+        </div>
+        
+        <div class="gallery-grid">
+          <!-- Gallery items remain the same -->
+          <div class="gallery-item" data-category="indoor" data-aos="fade-up">
+            <div class="gallery-frame">
+              <img src="https://images.pexels.com/photos/3990359/pexels-photo-3990359.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Lyerje e brendshme moderne" loading="lazy">
+              <div class="gallery-overlay"></div>
+              <div class="gallery-content">
+                <span class="badge">Para / Pas</span>
+                <h4>Vilë Private · Tiranë</h4>
+                <p>Lyerje komplete 250m²</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="decor" data-aos="fade-up" data-aos-delay="50">
+            <div class="gallery-frame">
+              <img src="https://images.pexels.com/photos/5691632/pexels-photo-5691632.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Patinim dekorativ luksoz" loading="lazy">
+              <div class="gallery-overlay"></div>
+              <div class="gallery-content">
+                <span class="badge">Patinim Luksoz</span>
+                <h4>Apartament · Durrës</h4>
+                <p>Efekt mermeri në mure</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="outdoor" data-aos="fade-up" data-aos-delay="100">
+            <div class="gallery-frame">
+              <img src="https://images.pexels.com/photos/1111370/pexels-photo-1111370.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Lyerje fasade rezidence" loading="lazy">
+              <div class="gallery-overlay"></div>
+              <div class="gallery-content">
+                <span class="badge">Fasadë e Rinovuar</span>
+                <h4>Rezidencë · Vlorë</h4>
+                <p>Bojë rezistente ndaj kushteve</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="indoor" data-aos="fade-up" data-aos-delay="150">
+            <div class="gallery-frame">
+              <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Tavan gipsi me ndricim" loading="lazy">
+              <div class="gallery-overlay"></div>
+              <div class="gallery-content">
+                <span class="badge">Gips & Ndriçim</span>
+                <h4>Shtëpi Private · Shkodër</h4>
+                <p>Tavan i varur me LED</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="outdoor" data-aos="fade-up" data-aos-delay="200">
+            <div class="gallery-frame">
+              <img src="https://images.pexels.com/photos/221506/pexels-photo-221506.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Fasade pallati" loading="lazy">
+              <div class="gallery-overlay"></div>
+              <div class="gallery-content">
+                <span class="badge">Fasadë Pallati</span>
+                <h4>Kompleks · Tiranë</h4>
+                <p>Rinovim i plotë i jashtëm</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="decor" data-aos="fade-up" data-aos-delay="250">
+            <div class="gallery-frame">
+              <img src="https://images.pexels.com/photos/447592/pexels-photo-447592.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dekor muri artistik" loading="lazy">
+              <div class="gallery-overlay"></div>
+              <div class="gallery-content">
+                <span class="badge">Dekor Artistik</span>
+                <h4>Studio · Prishtinë</h4>
+                <p>Mural i personalizuar</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="indoor" data-aos="fade-up" data-aos-delay="300">
+            <div class="gallery-frame">
+              <img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Lyerje dhome gjumi" loading="lazy">
+              <div class="gallery-overlay"></div>
+              <div class="gallery-content">
+                <span class="badge">Lyerje Dhomë Gjumi</span>
+                <h4>Vilë · Golem</h4>
+                <p>Ngjyra qetësuese pastel</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="outdoor" data-aos="fade-up" data-aos-delay="350">
+            <div class="gallery-frame">
+              <img src="https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Tarrace me gips" loading="lazy">
+              <div class="gallery-overlay"></div>
+              <div class="gallery-content">
+                <span class="badge">Tarracë & Gips</span>
+                <h4>Restorant · Durrës</h4>
+                <p>Mbrojtje nga lagështira</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="decor" data-aos="fade-up" data-aos-delay="400">
+            <div class="gallery-frame">
+              <img src="https://images.pexels.com/photos/1329711/pexels-photo-1329711.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Patinim antik" loading="lazy">
+              <div class="gallery-overlay"></div>
+              <div class="gallery-content">
+                <span class="badge">Patinim Antik</span>
+                <h4>Shtëpi Muze · Berat</h4>
+                <p>Restaurim mobiljesh dhe muresh</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-5" data-aos="fade-up">
+          <a href="#contact" class="btn btn-outline-primary btn-lg">Shiko më shumë projekte <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROCESS SECTION ===== -->
+    <section id="process" class="section process">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag"><i class="fas fa-diagram-project"></i> — Si Punojmë</span>
+          <h2 class="section-title">Procesi <span class="text-gradient">4 Hapash</span></h2>
+          <p class="section-desc">Një metodologji e qartë dhe transparente për të siguruar rezultate të përsosura.</p>
+        </div>
+        
+        <div class="process-timeline">
+          <div class="process-step" data-aos="fade-right">
+            <div class="step-number">01</div>
+            <div class="step-icon"><i class="fas fa-comments"></i></div>
+            <h3>Konsulencë & Vlerësim</h3>
+            <p>Vijmë pranë jush, vlerësojmë hapësirën dhe diskutojmë nevojat tuaja. Ofrojmë këshillim profesional për ngjyrat dhe materialet.</p>
+          </div>
+          <div class="process-step" data-aos="fade-left" data-aos-delay="100">
+            <div class="step-number">02</div>
+            <div class="step-icon"><i class="fas fa-file-signature"></i></div>
+            <h3>Ofertë & Kontratë</h3>
+            <p>Përgatisim një ofertë të detajuar me çmime transparente dhe afate kohore. Firma e kontratës garanton seriozitet dhe siguri.</p>
+          </div>
+          <div class="process-step" data-aos="fade-right" data-aos-delay="200">
+            <div class="step-number">03</div>
+            <div class="step-icon"><i class="fas fa-paint-roller"></i></div>
+            <h3>Ekzekutim & Pastërti</h3>
+            <p>Ekipi ynë i specializuar kryen punimet me përkushtim. Mbrojmë mobiljet dhe pastrojmë ambientin çdo ditë pas pune.</p>
+          </div>
+          <div class="process-step" data-aos="fade-left" data-aos-delay="300">
+            <div class="step-number">04</div>
+            <div class="step-icon"><i class="fas fa-clipboard-check"></i></div>
+            <h3>Dorëzim & Garanci</h3>
+            <p>Inspektojmë bashkë me ju çdo detaj. Dorëzojmë ambientin gati për t’u shijuar dhe ofrojmë garanci të shkruar për punën tonë.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ SECTION ===== -->
+    <section class="section faq">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag"><i class="fas fa-question-circle"></i> — FAQ</span>
+          <h2 class="section-title">Pyetje të <span class="text-gradient">Shpeshta</span></h2>
+        </div>
+        
+        <div class="faq-grid" data-aos="fade-up">
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Sa zgjat një projekt tipik lyerjeje?</h3>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Kohëzgjatja varet nga madhësia e ambientit dhe kompleksiteti i punimeve. Një apartament 2+1 zakonisht përfundon për 3-5 ditë pune, ndërsa një vilë mund të marrë 7-10 ditë. Gjatë konsulencës japim një afat të saktë kohor.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Çfarë lloj bojrash përdorni?</h3>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Përdorim marka premium si Caparol, Oikos dhe Sikkens. Të gjitha bojërat tona janë me përmbajtje të ulët VOC, miqësore me mjedisin dhe të sigurta për fëmijët dhe kafshët shtëpiake.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>A ofroni garanci për punën?</h3>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Po! Ne ofrojmë garanci 5-vjeçare për të gjitha punimet tona të lyerjes dhe 2-vjeçare për punimet dekorative. Në rast të ndonjë problemi, ekipi ynë rikthehet pa kosto shtesë.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>A duhet të lëviz mobiljet para se të vini?</h3>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Jo domosdoshmërisht. Ne sjellim mbulesa speciale për të mbrojtur mobiljet dhe dyshemetë. Nëse keni sende të vogla dekorative, ju lutemi t'i hiqni paraprakisht. Ekipi ynë mund t'ju ndihmojë me lëvizjen e mobiljeve të rënda.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA SECTION ===== -->
+    <section class="cta">
+      <div class="cta-particles"></div>
+      <div class="container cta-content" data-aos="zoom-in">
+        <h2 class="cta-title">Gati për të transformuar ambientin tuaj?</h2>
+        <p class="cta-subtitle">Na tregoni idenë tuaj dhe ne do ta kthejmë në realitet. Kërko një konsulencë falas!</p>
+        <a href="#contact" class="btn btn-light btn-lg btn-glow">
+          Na kontakto <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer id="contact" class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h3 class="footer-logo">
+              <i class="fas fa-paint-brush"></i> Lala<span class="text-gold">Painting</span>
+            </h3>
+            <p class="footer-desc">Cilësi që shihet. Detaje që ndihen. Profesionistët e lyerjes dhe dekorimit në Shqipëri dhe Kosovë.</p>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            </div>
+          </div>
+          
+          <div class="footer-col">
+            <h4>Shërbimet Kryesore</h4>
+            <ul class="footer-links">
+              <li><a href="#services">Lyerje e Brendshme</a></li>
+              <li><a href="#services">Lyerje Fasade</a></li>
+              <li><a href="#services">Gips & Dekorime</a></li>
+              <li><a href="#services">Patinime Artistike</a></li>
+              <li><a href="#services">Restaurim Mobiljesh</a></li>
+              <li><a href="#services">Hidroizolim Tarracash</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-col">
+            <h4>Linqe të Shpejta</h4>
+            <ul class="footer-links">
+              <li><a href="#about">Rreth Nesh</a></li>
+              <li><a href="#gallery">Galeria</a></li>
+              <li><a href="#process">Procesi i Punës</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Politika e Privatësisë</a></li>
+              <li><a href="#">Termat e Shërbimit</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-col">
+            <h4>Kontakt i Drejtpërdrejtë</h4>
+            <ul class="footer-contact">
+              <li><i class="fas fa-map-marker-alt"></i> Rr. e Kavajës, Pallati 12, Tiranë, Shqipëri</li>
+              <li><i class="fas fa-phone-alt"></i> <a href="tel:+355691234567">+355 69 123 4567</a></li>
+              <li><i class="fas fa-envelope"></i> <a href="mailto:info@lalapainting.al">info@lalapainting.al</a></li>
+              <li><i class="fas fa-clock"></i> Hënë - Shtunë: 08:00 - 18:00</li>
+            </ul>
+            <div class="newsletter">
+              <p>Abonohu për oferta</p>
+              <form class="newsletter-form">
+                <input type="email" placeholder="Email-i juaj">
+                <button type="submit"><i class="fas fa-paper-plane"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+          <p>© 2025 Lala Painting. Të gjitha të drejtat e rezervuara.</p>
+          <p class="credit">Dizajnuar me <i class="fas fa-heart"></i> për art & cilësi premium</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({ duration: 800, once: true, offset: 100, easing: 'ease-in-out-cubic' });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
